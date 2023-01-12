@@ -1,0 +1,65 @@
+
+/* ..........................card form ....................... */
+.box{
+  width: 30%;
+  height: 50%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 1px solid black; */
+  background-color: white;
+}
+.box>label{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.box>input{
+  width: 90%;
+  height: 20%;
+  border-radius: 50px;
+  font-size: 1rem;
+  padding-left: 5%;
+}
+.box>button{
+  width: 90%;
+  height: 15%;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* .............................bucket form.......................... */
+
+.create-bucket{
+  width: 30%;
+  height: 50%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 1px solid black; */
+  background-color:white
+}
+.create-bucket>label{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.create-bucket>input{
+  width: 90%;
+  height: 20%;
+  border-radius: 50px;
+  font-size: 1rem;
+  padding-left: 5%;
+}
+.create-bucket>button{
+  width: 90%;
+  height: 15%;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
